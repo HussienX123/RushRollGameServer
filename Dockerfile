@@ -28,7 +28,7 @@ WORKDIR /server
 RUN chmod +x ServerBuild.x86_64
 
 # Expose your FishNet portE:\Unity New Projects\Yakuza Ball Game MULTIPLAYER_clone_0\GameServer\ServerBuild
-EXPOSE 7777
+EXPOSE 7770
 
 # Start the server
 CMD ["./ServerBuild.x86_64"]
