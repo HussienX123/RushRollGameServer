@@ -15,7 +15,7 @@ RUN apt-get update && \
     update-ca-certificates
 
 # Expose your FishNet portE:\Unity New Projects\Yakuza Ball Game MULTIPLAYER_clone_0\GameServer\ServerBuild
-EXPOSE 2727/udp
+EXPOSE 2727
 
 # Start the server
 CMD ["./ServerBuild.x86_64", "-batchmode", "-nographics", "$UNITY_COMMANDLINE_ARGS"]
